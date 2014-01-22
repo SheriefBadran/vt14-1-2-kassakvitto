@@ -4,7 +4,8 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head runat="server">
-        <title></title>
+        <title>Kassa Kvitto</title>
+        <link href ="~/Content/style.css" rel="stylesheet" />
     </head>
     <body>
         <header>
@@ -13,8 +14,14 @@
 
         <div id ="container">
             <form id="form1" runat="server">
-                <div>
-    
+                <div class="formContent">
+                    <asp:Label ID="SumLabel" runat="server" Text="Total köpsumma"></asp:Label>
+                </div>
+                <div class="formContent">
+                    <asp:TextBox ID="SumTextBox" runat="server"></asp:TextBox>
+                </div>
+                <div class="formContent">
+                    <asp:Button ID="SubmitButton" runat="server" Text="Button" OnClick="SubmitButton_Click" />
                 </div>
             </form>
         </div>

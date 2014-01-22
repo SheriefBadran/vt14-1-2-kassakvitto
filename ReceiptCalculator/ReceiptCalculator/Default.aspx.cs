@@ -11,6 +11,13 @@ namespace ReceiptCalculator
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            SumLabel.CssClass = "inputSpan";
+            SumTextBox.CssClass = "inputField";
+            SubmitButton.CssClass = "submitButton";
+        }
+
+        protected void SubmitButton_Click(object sender, EventArgs e)
+        {
 
         }
     }
