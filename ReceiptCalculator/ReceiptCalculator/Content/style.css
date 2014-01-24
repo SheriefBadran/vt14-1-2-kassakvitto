@@ -4,16 +4,50 @@
 }
 
 body {
+    width: 100%;
 }
 
-.inputSpan {
+header {
+    margin-left: 35%;
+}
 
+fieldset {
+    padding: 10% 40% 40% 20%;
+}
+
+ledgend {
+    padding: 5px;
+    font-size: 2em;
+    color: #f00;
+}
+
+.formContent {
+    clear: left;
 }
 
 .inputField {
-
+    float: left;
 }
 
 .submitButton {
-    margin-top: 5px;
+    margin-top: 20px;
 }
+
+.container {
+    margin-top: 10%;
+    width: 30%;
+    margin-left: 35%;
+}
+
+#ReceiptPanel {
+    margin-top: 1%;
+    height: 250px;
+    width: 200px;
+    border: 1px solid #000;
+}
+
+#unit {
+    /*float: left;*/
+    margin-left: 4px;
+}
+
